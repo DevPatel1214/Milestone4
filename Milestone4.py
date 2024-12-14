@@ -16,6 +16,7 @@ import numpy as np
 
 #create dash app
 app = dash.Dash(__name__)
+server = app.server
 app.title = "Milestone 4"
 
 #layout
